@@ -1,0 +1,1000 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css">
+        body {
+            Margin: 0;
+            padding: 0;
+            min-width: 100%;
+            background-color: #FAFAFA;
+        }
+
+        table {
+            border-spacing: 0;
+            font-family: Aria, sans-serif;
+            color: #333333;
+        }
+
+        td {
+            padding: 0;
+            /* outline: 1px solid red; */
+        }
+
+        table {
+            /* outline: 1px solid green; */
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        .webkit {
+            max-width: 600px;
+        }
+
+        .bg-gray {
+            background-color: #FAFAFA;
+        }
+
+        .bg-white {
+            background-color: #ffffff;
+        }
+
+        .bg-black {
+            background-color: #121212;
+        }
+
+        .bg-bronze {
+            background-color: #c15d39;
+        }
+
+        .bg-silver {
+            background-color: #a3a3a3;
+        }
+
+        .bg-gold {
+            background-color: #f1ba04;
+        }
+
+        .bg-yellow {
+            background-color: #fffb94;
+        }
+
+        .to-center {
+            text-align: center;
+        }
+
+        .to-left {
+            text-align: left;
+        }
+
+        .white {
+            color: #ffffff;
+        }
+
+
+        @-ms-viewport {
+            width: device-width;
+        }
+
+        .outer {
+            Margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .full-width-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .inner {
+            padding: 20px;
+        }
+
+        p {
+            Margin: 0;
+            line-height: 1.3;
+        }
+
+        a {
+
+            text-decoration: underline;
+        }
+
+
+
+        .one-column .contents {
+            text-align: center !important;
+        }
+
+        .one-column p {
+            font-size: 14px;
+            Margin-bottom: 10px;
+        }
+
+        .one-column p.font-size-16 {
+            font-size: 16px;
+        }
+
+        .one-column p.font-size-18 {
+            font-size: 18px;
+            Margin-bottom: 20px;
+        }
+
+        .one-column p.h1 {
+            font-size: 22px;
+            font-weight: bold;
+            Margin-bottom: 15px;
+        }
+
+        .one-column p.h2 {
+            font-size: 30px;
+            font-weight: bold;
+            Margin-bottom: 15px;
+        }
+
+        .one-column p.h3 {
+            font-size: 22px;
+            font-weight: bold;
+            Margin-bottom: 5px;
+        }
+
+        .one-column p.h4 {
+            font-size: 20px;
+            font-weight: bold;
+            Margin-bottom: 15px;
+        }
+
+        .one-column p.h5 {
+            font-size: 24px;
+            Margin-bottom: 15px;
+        }
+
+        .one-column p.h6 {
+            font-size: 30px;
+            Margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .one-column p.h7 {
+            font-size: 26px;
+            Margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .one-column p.h8 {
+            font-size: 20px;
+            Margin-bottom: 15px;
+        }
+
+        .grey {
+            color: #FAFAFA;
+        }
+
+        .one-column a.big-url {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000000;
+            font-size: 20px;
+        }
+
+        .one-column a.button {
+            display: block;
+            text-align: center;
+        }
+
+        .one-column a.button span {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            Margin: 0 auto;
+            padding: 15px 30px 12px;
+            border-bottom: 3px solid #fe8860;
+            background-color: #ffa688;
+        }
+
+        .one-column p.smalltext {
+            font-size: 12px;
+            color: #898989;
+            Margin-top: 10px;
+            Margin-bottom: 0;
+        }
+
+        .one-column ul {
+            list-style-image: url(https://www.synevo.ua/images/mail/li.jpg);
+        }
+
+        .one-column p.li {
+            Margin-bottom: 0;
+        }
+
+        .two-column {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-column .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .two-column .column1 {
+            width: 100%;
+            max-width: 380px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .two-column .column2 {
+            width: 100%;
+            max-width: 220px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .contents {
+            width: 100%;
+        }
+
+        .two-column .contents {
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .two-column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .two-column .text {
+            padding-top: 10px;
+        }
+
+        .two-column p.h6 {
+            font-size: 30px;
+            font-weight: bold;
+            Margin-top: 35px;
+        }
+
+
+        .three-column {
+            text-align: center;
+            font-size: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .three-column .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .three-column .contents {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .three-column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .three-column .text {
+            padding-top: 10px;
+        }
+
+
+
+        .left-sidebar {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .left-sidebar .column {
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .left-sidebar .left {
+            max-width: 300px;
+        }
+
+        .left-sidebar .right {
+            max-width: 300px;
+        }
+
+        .left-sidebar .contents {
+            font-size: 14px;
+            text-align: center;
+        }
+
+
+        .right-sidebar {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .right-sidebar .column {
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .right-sidebar .left {
+            max-width: 110px;
+        }
+
+        .right-sidebar .right {
+            max-width: 390px;
+        }
+
+        .right-sidebar .contents {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .right-sidebar a,
+        .left-sidebar a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .left-sidebar p.h1,
+        .right-sidebar p.h1 {
+            font-size: 30px;
+            Margin-bottom: 15px;
+
+        }
+
+        .left-sidebar p,
+        .right-sidebar p {
+            Margin-bottom: 15px;
+        }
+
+        /*Base64 images for Survey block*/
+
+        /* .arrow {
+            background-image: url(arrow-ret.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 195px 14px;
+        }
+
+        .radio0 {
+            background-image: url(off_00.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 23px 39px;
+        }
+
+        .radio1 {
+            background-image: url(off_01.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 24px 39px;
+        }
+
+        .radio2 {
+            background-image: url(off_02.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 26px 39px;
+        }
+
+        .radio3 {
+            background-image: url(off_03.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 26px 39px;
+        }
+
+        .radio4 {
+            background-image: url(off_04.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 25px 39px;
+        }
+
+        .radio5 {
+            background-image: url(off_05.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 24px 39px;
+        }
+
+        .radio6 {
+            background-image: url(off_06.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 27px 39px;
+        }
+
+        .radio7 {
+            background-image: url(off_07.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 25px 39px;
+        }
+
+        .radio8 {
+            background-image: url(off_08.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 25px 39px;
+        }
+
+        .radio9 {
+            background-image: url(off_09.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 24px 39px;
+        }
+
+        .radio10 {
+            background-image: url(off_10.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 23px 39px;
+        } */
+
+
+
+        /*Media Queries*/
+
+        @media screen and (max-width: 480px) {
+
+            .line {
+                padding: 0px 20px 0px 20px !important;
+            }
+            .logo {
+                padding-left: 20px !important;
+            }
+            .logo img {
+                width: 80%;
+            }
+            .phone {
+                padding-right: 20px !important;
+            }
+        }
+
+        @media screen and (max-width: 370px) {
+
+            .arrow {
+                width: 150px !important;
+                background-size: 95%;
+            }
+
+        }
+    </style>
+    <!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+    table {border-collapse: collapse !important;}
+</style>
+<![endif]-->
+</head>
+
+<body style="Margin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-width:100%;background-color:#FAFAFA;">
+    <center class="wrapper bg-gray" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#FAFAFA;">
+        <div class="webkit" style="max-width:600px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                <tr>
+                    <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+            <![endif]-->
+            <table class="outer" align="center" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;Margin:0 auto;width:100%;max-width:600px;">
+                <tr>
+                    <td class="one-column bg-white" style="padding-top:22px;padding-bottom:13px;padding-right:0;padding-left:0; background-color: #ffffff;">
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#616161;">
+                            <tr>
+                                <td class="contents" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;width:100%;text-align:left;">
+                                    <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;">
+                                        <tr>
+
+                                            <td width="125" style="padding-left:30px;" class="logo">
+                                                <a href="http://www.synevo.ua/uk/?utm_source=newsletter&utm_medium=email&utm_content=header&utm_campaign=newsletter" target="_blank">
+                                                    <img src="https://www.synevo.ua/images/mail/logo.png" style="border-width:0; display: block;">
+                                                </a>
+                                            </td>
+                                            <td class="phone" style="padding-top:5px;padding-right:27px;padding-bottom:5px;padding-left:0; font-size: 14px; color:#616161;"
+                                                align="right">
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td align="left" style="color: #616161; font: 90% arial,helvetica,sans-serif!important;">
+                                                            <span class="die">Інформаційна служба:
+                                                                <br>
+                                                            </span>
+                                                            <strong>044 20 500 20</strong>
+                                                            <span class="die">(Київ)</span>
+                                                            <br>
+                                                            <strong>0 800 50 70 30</strong>
+                                                            <span class="die">(безкоштовно з усіх номерів)</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="full-width-image line" style="padding-top:0;padding-bottom:0;padding-right:30px;padding-left:30px; background-color: #ffffff;">
+                        <img src="https://www.synevo.ua/images/mail/line_blue.png" style="border-width:0;width:100%;height:auto; display: block;"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="one-column" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" align="center">
+                        <table width="100%" class="bg-white" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;background-color:#ffffff;"
+                            align="center">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#616161;">
+                                    <p class="to-center" style="Margin:0;line-height:1.3;text-align:center;font-size:23px;Margin-bottom:15px; color: #0a559e;">Ваші результати готові!</p>
+                                    <p class="to-center" style="Margin:0;line-height:1.3;text-align:center;font-size:14px;Margin-bottom:10px; color:#616161;">
+                                        <strong>Перегляньте їх у вкладеному PDF-файлі.</strong>
+                                    </p>
+                                    <p class="to-center" style="Margin:0;line-height:1.3;text-align:center;font-size:14px;Margin-bottom:0px; color:#616161;">Або ж скористайтеся особистим кабінетом, де ви зможете переглянути
+                                        <br> всю історію ваших результатів, простежити динаміку показників,
+                                        <br>а також отримати індивідуальні пропозиції та знижки.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="inner contents" align="center" style="padding-top:0px;padding-bottom:33px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#616161;">
+                                    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: separate!important;" align="center">
+                                        <tr>
+                                            <td align="center" height="35" width="167" bgcolor="#0a559e" style="color: #ffffff; font: 14px arial,helvetica,sans-serif!important; padding: 0px 0px 0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-collapse: separate!important;">
+                                                <a href="https://vitagramma.com/ua/synevo-register?email={email}&hash={hash}&utm_source=synevo_analysis_email&utm_medium=email&utm_campaign=synevo"
+                                                    target="_blank" style="color: #ffffff; text-decoration: none;">Особистий кабінет</a>
+                                                <img src='https://www.google-analytics.com/collect?v=1&tid=UA-42401050-1&t=event&cid=%7Bhash%7D&cn=result_email&cs=email&ec=result_email&ea=open'
+                                                    width=1 height=1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#616161;">
+                        <img src="https://www.synevo.ua/images/mail/banner_1.gif" alt="Включите отображение картинок" style="border-width:0;width:100%;height:auto; display: block;"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="one-column" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                        <table width="100%" class="bg-white" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;background-color:#ffffff;"
+                            align="center">
+                            <tr>
+                                <td class="inner contents" style="padding-top:40px;padding-bottom:20px;padding-right:40px;padding-left:40px;width:100%;text-align:center; color: #0a559e;">
+                                    <p class="to-left" style="Margin:0;line-height:1.3;font-size:25px;Margin-bottom:1px; ">Робіть аналізи швидше та зручніше!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right-sidebar bg-white" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-color:#ffffff;text-align:left;font-size:0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                            <tr>
+                                <td width="110" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                                <![endif]-->
+                        <table class="column left" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:top;max-width:110px;">
+                            <tr>
+                                <td class="inner full-width-image imm" valign="top" style="padding-top:20px;padding-bottom:10px;padding-right:0px;padding-left:30px; text-align: left;"
+                                    align="left">
+                                    <img src="https://www.synevo.ua/images/mail/ico_1.png" style="border-width:0;width:100%;height:auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="490" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column right" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:middle;max-width:490px;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:30px;width:100%;font-size:14px;text-align:center;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: bold 14px/18px arial,helvetica,sans-serif!important; padding-bottom: 12px;">Записуйтесь онлайн та здавайте без черг</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: 14px/20px arial,helvetica,sans-serif!important; padding-bottom: 14px;">
+                                                Замовивши аналіз онлайн, ви зможете скористатися
+                                                <br>послугами лабораторії без черг.
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="but" style="padding-bottom: 12px;">
+                                                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: separate!important;">
+                                                    <tr>
+                                                        <td align="center" height="35" width="167" bgcolor="#0a559e" style="color: #ffffff; font: 14px arial,helvetica,sans-serif!important; padding: 0px 0px 0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-collapse: separate!important;">
+                                                            <a href="http://www.synevo.ua/uk/appointments?utm_source=newsletter&utm_medium=email&utm_content=appointments&utm_campaign=newsletter"
+                                                                target="_blank" style="color: #ffffff; text-decoration: none;">Записатися</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="right-sidebar bg-white" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-color:#ffffff;text-align:left;font-size:0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                        <tr>
+                         <td width="110" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column left" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:top;max-width:110px;">
+                            <tr>
+                                <td class="inner full-width-image imm" valign="top" style="padding-top:20px;padding-bottom:10px;padding-right:0px;padding-left:30px; text-align: left;"
+                                    align="left">
+                                    <img src="https://www.synevo.ua/images/mail/ico_2.png" style="border-width:0;width:100%;height:auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="490" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column right" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:middle;max-width:490px;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:30px;width:100%;font-size:14px;text-align:center;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: bold 14px/18px arial,helvetica,sans-serif!important; padding-bottom: 12px;">Оберіть найзручніше відділення</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: 14px/20px arial,helvetica,sans-serif!important; padding-bottom: 14px;">
+                                                Дізнайтеся про рівень завантаження, графік роботи
+                                                <br>та наявність дитячої медичної сестри у кожному відділенні.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="but" style="padding-bottom: 12px;">
+                                                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: separate!important;">
+                                                    <tr>
+                                                        <td align="center" height="35" width="167" bgcolor="#0a559e" style="color: #ffffff; font: 14px arial,helvetica,sans-serif!important; padding: 0px 0px 0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-collapse: separate!important;">
+                                                            <a href="http://www.synevo.ua/uk/gde-sdat-analiz?utm_source=newsletter&utm_medium=email&utm_content=location&utm_campaign=newsletter"
+                                                                target="_blank" style="color: #ffffff; text-decoration: none;">Обрати відділення</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right-sidebar bg-white" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;background-color:#ffffff;text-align:left;font-size:0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                        <tr>
+                        <td width="110" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column left" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:top;max-width:110px;">
+                            <tr>
+                                <td class="inner full-width-image" valign="top" style="padding-top:20px;padding-bottom:10px;padding-right:0px;padding-left:30px; text-align: left;"
+                                    align="left">
+                                    <img src="https://www.synevo.ua/images/mail/ico_3.png" style="border-width:0;width:100%;height:auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="490" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column right" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:middle;max-width:490px;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:30px;width:100%;font-size:14px;text-align:center;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: bold 14px/18px arial,helvetica,sans-serif!important; padding-bottom: 12px;">Здавайте аналізи у неділю</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: 14px/20px arial,helvetica,sans-serif!important; padding-bottom: 14px;">
+                                                Перегляньте список лабораторій, які проводять забір
+                                                <br>аналізів без вихідних.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="but" style="padding-bottom: 12px;">
+                                                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: separate!important;">
+                                                    <tr>
+                                                        <td align="center" height="35" width="167" bgcolor="#0a559e" style="color: #ffffff; font: 14px arial,helvetica,sans-serif!important; padding: 0px 0px 0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-collapse: separate!important;">
+                                                            <a href="https://www.synevo.ua/uk/gde-sdat-analiz?filter=sunday" target="_blank" style="color: #ffffff; text-decoration: none;">Переглянути список</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="full-width-image line" style="padding-top:0;padding-bottom:0;padding-right:30px;padding-left:30px; background-color: #ffffff;">
+                        <img src="https://www.synevo.ua/images/mail/line.png" style="border-width:0;width:100%;height:auto; display: block;" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right-sidebar bg-white" valign="top" style="padding-top:20px;padding-bottom:15px;padding-right:0;padding-left:0;background-color:#ffffff;text-align:center;font-size:0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                        <tr>
+                        <td width="375" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column left" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:top;max-width:375px;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:30px;width:100%;font-size:14px;text-align:left;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="left" style="color: #0a559e; font: 25px/28px arial,helvetica,sans-serif!important; padding-bottom: 22px;">Допоможіть нам стати ще кращими!</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: 14px/20px arial,helvetica,sans-serif!important; padding-bottom: 22px;">
+                                                Будь ласка, залишіть відгук про ваш досвід користування нашими послугами, заповнивши анкету.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="but" style="padding-bottom: 12px;">
+                                                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: separate!important;">
+                                                    <tr>
+                                                        <td align="center" height="35" width="167" bgcolor="#0a559e" style="color: #ffffff; font: 14px arial,helvetica,sans-serif!important; padding: 0px 0px 0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border-collapse: separate!important;">
+                                                            <a href="https://www.survio.com/survey/d/A0E2Y1R3N4D5R3G6O?utm_source=newsletter&utm_medium=email&utm_content=feedback&utm_campaign=newsletter"
+                                                                target="_blank" style="color: #ffffff; text-decoration: none;">Залишити відгук</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="225" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column right" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:middle;max-width:225px;">
+                            <tr>
+                                <td class="inner full-width-image imm" valign="top" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:35px;">
+                                    <img src="https://www.synevo.ua/images/mail/ico_4.png" style="border-width:0;width:100%;height:auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="full-width-image line" style="padding-top:0;padding-bottom:0;padding-right:30px;padding-left:30px; background-color: #ffffff;">
+                        <img src="https://www.synevo.ua/images/mail/line.png" style="border-width:0;width:100%;height:auto; display: block;" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right-sidebar bg-white" valign="top" style="padding-top:10px;padding-bottom:15px;padding-right:0;padding-left:0;background-color:#ffffff;text-align:center;font-size:0;">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;" >
+                        <tr>
+                        <td width="510" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column left" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:top;max-width:510px;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:20px;padding-bottom:20px;padding-right:40px;padding-left:30px;width:100%;font-size:14px;text-align:center;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="left" style="color: #616161; font: 14px/18px arial,helvetica,sans-serif!important;">
+                                                Якщо на вашому комп’ютері не встановлена програма для читання файлів у форматі PDF, ви можете безкоштовно завантажити офіційну
+                                                версію:
+                                                <a style="color: #0a559e; text-decoration: underline;" target="_blank" href="http://get.adobe.com/reader">
+                                                    <span style="color: #0a559e;">get.adobe.com/reader</span>
+                                                </a>
+                                                <br>
+                                                <br> Аби дізнатися більше про аналіз та інтерпретацію результатів, скористайтеся
+                                                нашим
+                                                <a style="color: #0a559e; text-decoration: underline;" target="_blank" href="http://spravochnik.synevo.ua/?utm_source=newsletter&utm_medium=email&utm_content=guide&utm_campaign=newsletter">
+                                                    <span style="color: #0a559e;">онлайн-довідником</span>
+                                                </a>.
+                                                <br>
+                                                <br> Переглянути, як саме ми робимо аналiзи, можна у
+                                                <a style="color: #0a559e; text-decoration: underline;" target="_blank" href="https://www.youtube.com/watch?v=12fUy099MxQ&feature=youtu.be&utm_source=newsletter&utm_medium=email&utm_content=video&utm_campaign=newsletter">
+                                                    <span style="color: #0a559e;">вiдео</span>
+                                                </a>.
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="90" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" >
+                        <![endif]-->
+                        <table class="column right" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;width:100%;display:inline-block;vertical-align:middle;max-width:90px;">
+                            <tr>
+                                <td class="inner full-width-image" valign="top" style="padding-top:25px;padding-bottom:20px;padding-right:20px;padding-left:0px;">
+                                    <img src="https://www.synevo.ua/images/mail/ico_5.png" style="border-width:0;width:100%;height:auto;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="full-width-image" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0; background-color: #ffffff;">
+                        <a href="https://www.synevo.ua/cart" target="_blank">
+                            <img src="https://www.synevo.ua/images/mail/banner_2.jpg" alt="Включите отображение картинок" style="border-width:0;width:100%;height:auto; display: block;"
+                            />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="one-column" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                        <table width="100%" class="bg-white" style="border-spacing:0;font-family:Aria, sans-serif;color:#333333;background-color:#ffffff;">
+                            <tr>
+                                <td class="inner contents" style="padding-top:35px;padding-bottom:13px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#0a559e; font-size: 25px;">
+                                    Дякуємо, що обираєте “Сінево”!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="inner contents" style="padding-top:0px;padding-bottom:13px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#616161; font-size: 14px;">
+                                    Приєднуйтесь до нас у соціальних мережах
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="inner contents" style="padding-top:0px;padding-bottom:30px;padding-right:10px;padding-left:10px;width:100%;text-align:center; color:#616161; font-size: 14px;">
+                                    <a href="https://www.facebook.com/synevolab/?utm_source=newsletter&utm_medium=email&utm_content=facebook&utm_campaign=newsletter"
+                                        target="_blank">
+                                        <img src="https://www.synevo.ua/images/mail/soc_1.png" width="35" height="35" border="0">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="one-column" style="width: 100%; height: 145px; padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+
+                        <!-- Survey Begin -->
+
+                        <table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; text-align:center;border-spacing:0;
+                         font-family:Aria,sans-serif;color:#333333;width:100%;background-color:#00539E;text-align:center; width:100%">
+                            <tr>
+                                <td align="center" valign="middle" style=" color: #FFFFFF; font: 12px arial,helvetica,sans-serif!important; padding-top: 15px;
+                                 padding-bottom: 15px; padding-left: 10px; padding-right: 10px;">
+                                    Оцініть, будь-ласка наскільки ви готові рекомендувати
+                                    <br> лабораторний центр, де ви здавали аналізи, своїм друзям та рідним?</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center;width:100%">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width:272px; height: 40px; border-collapse: collapse;">
+                                        <tr>
+                                            <td style="width:23px; height: 39px;" class="radio0">
+                                                <a style=" width:23px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_00.png" alt="" style="width:23px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:24px; height: 39px;" class="radio1">
+                                                <a style=" width:24px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_01.png" alt="" style="width:24px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:26px; height: 39px;" class="radio2">
+                                                <a style=" width:26px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_02.png" alt="" style="width:26px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:26px; height: 39px;" class="radio3">
+                                                <a style=" width:26px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_03.png" alt="" style="width:26px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:25px; height: 39px;" class="radio4">
+                                                <a style=" width:25px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_04.png" alt="" style="width:25px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:24px; height: 39px;" class="radio5">
+                                                <a style=" width:24px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_05.png" alt="" style="width:24px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:27px; height: 39px;" class="radio6">
+                                                <a style=" width:27px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_06.png" alt="" style="width:27px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:25px; height: 39px;" class="radio7">
+                                                <a style=" width:25px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_07.png" alt="" style="width:25px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:25px; height: 39px;" class="radio8">
+                                                <a style=" width:25px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_08.png" alt="" style="width:25px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:24px; height: 39px;" class="radio9">
+                                                <a style=" width:24px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_09.png" alt="" style="width:24px; height: 39px"></a>
+                                            </td>
+                                            <td style="width:23px; height: 39px;" class="radio10">
+                                                <a style=" width:23px; height: 39px; display: block;" href="https://www.synevo.ua" ; target="blank"><img src="off_10.png" alt="" style="width:23px; height: 39px"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center; width:100%; height: 47px">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="height: 20px; padding-bottom: 20px; padding-top: 7px;padding-left:25px">
+                                        <tr>
+                                            <td align="center" style="color: #FFFFFF; font: 10px arial,helvetica,sans-serif!important;">Ні в якому
+                                                <br>разі
+                                            </td>
+                                            <td align="center" class="arrow" style="height:20px; width:195px"><img src="arrow-ret.png" alt="" style="width:195px; ">
+                                            </td>
+                                            <td align="center"  style="color: #FFFFFF; width: 76px; font: 10px arial,helvetica,sans-serif!important;">Обов'язково
+                                                <br> порекомендую
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- Survey End -->
+
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+                </td>
+                    </tr>
+                </table>
+                <![endif]-->
+        </div>
+    </center>
+
+</body>
